@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from './pages/Login' ;
+import Register from './pages/Register' ;
+import Category from './pages/Category' ;
+import Product from '../src/pages/Product' ;
+import EditProduct from '../src/pages/EditProduct' ;
+import ProductShop from '../src/pages/ProductShop' ;
+import DetailPage from '../src/pages/DetailPage' ;
+import Profil from '../src/pages/Profil' ;
+import EditCategory from '../src/pages/EditCategory' ;
+import ComplainPage from '../src/pages/ComplainPage' ;
+import Complain from '../src/pages/Complain' ;
+import ComplainByAdmin from '../src/pages/ComplainByAdmin' ;
+import Render from '../src/Config/Router';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Login/>
+      
     </div>
   );
 }

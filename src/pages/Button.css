@@ -1,0 +1,127 @@
+
+.buttonMerah {
+    width: 135px;
+    height: 40px;
+    color: white;
+    background-color: #F74D4D; 
+    border-radius: 5px;
+    border: 0;
+}
+
+/* .buttonHijau {
+    width: 110px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: #56C05A;   
+    border: 0;
+} */
+.buttonEdit {
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: #F74D4D; 
+    border-radius: 5px;
+    border: 0;
+}
+
+.buttonDelete {
+    width: 110px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: #56C05A;   
+    border: 0;
+}
+
+.formLogin {
+
+    align-items: center;
+    width: 416px;
+    height: 366px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #181818;
+
+}
+
+.buttonSave {
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    background-color: #56C05A;   
+    border: 0;
+    margin-right: 30px;
+}
+
+.kotak {
+width: 524px;
+height: 145px;
+background-color: #303030;
+
+}
+
+.buttonBuy {
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    background-color: #F74D4D;   
+    border: 0;
+    margin-right: 30px;
+}
+
+.chat {
+    position: absolute;
+    width: 870px;
+    bottom: 0;
+    padding-left: 30px;
+}
+
+
+.talk-bubble {
+	margin: 30px;
+  display: inline-block;
+  position: relative;
+	width: auto;
+	height: auto;
+    padding : 10px;
+	background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+}
+
+.talk-bubble1 {
+	margin: 20px;
+    margin-bottom: 35px;
+  display: inline-block;
+  position: relative;
+	width: auto;
+	height: auto;
+    padding : 10px;
+	background-color: rgb(108, 108, 108);
+    border-radius: 5px;
+}
+
+.talktext p {
+    color: white;
+    font-size: 13px;
+    padding: 7px;
+}
+    .tri-right.left-in:after{
+        /* content: '  '; */
+        position: absolute;
+        width: 0;
+        height: 0;
+      left: -20px;
+        right: auto;
+      top: 20px;
+        bottom: auto;
+        border: 12px solid;
+        border-color: lightyellow lightyellow transparent transparent;
+    }
+    .talktext p{
+        /* remove webkit p margins */
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+      }
